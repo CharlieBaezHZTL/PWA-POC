@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+public/service-worker.js
+package-lock.json
+public/service-worker.js
