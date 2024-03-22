@@ -1,10 +1,13 @@
 {
+  "homepage": "https://charliebaezhztl.github.io/PWA-POC/",
   "name": "next-dash",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
   },
