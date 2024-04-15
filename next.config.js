@@ -9,7 +9,9 @@ const withPWA = require('next-pwa')({
 });
 
 const nextConfig = {
+	basePath: '/ucare-pwa-poc-static',
 	reactStrictMode: true,
+	output: 'standalone',
 };
 
 module.exports = withPWA(nextConfig);

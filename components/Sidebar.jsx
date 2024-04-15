@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 
 export const SidebarContext = createContext({
 	isOpen: false,
-	setIsOpen: () => {},
+	setIsOpen: () => { },
 });
 
 const Sidebar = ({ children }) => {
