@@ -1,13 +1,10 @@
 {
-  "homepage": "https://charliebaezhztl.github.io/PWA-POC/",
   "name": "next-dash",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -31,7 +28,6 @@
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-yaml": "^0.2.0",
-    "gh-pages": "^6.1.1",
     "postcss": "^8.4.21",
     "prettier": "^2.1.2",
     "react": "^18.2.0",
